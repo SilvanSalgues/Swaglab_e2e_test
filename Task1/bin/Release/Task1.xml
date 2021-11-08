@@ -1,0 +1,606 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Task1</name>
+    </assembly>
+    <members>
+        <member name="T:Task1.Close_SWAGLABS_page">
+            <summary>
+            Description of Close_SWAGLABS_page.
+            </summary>
+        </member>
+        <member name="M:Task1.Close_SWAGLABS_page.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Task1.Close_SWAGLABS_page.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:Task1.E2E_Purchase_item">
+            <summary>
+            Description of E2E_Purchase_item.
+            </summary>
+        </member>
+        <member name="M:Task1.E2E_Purchase_item.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Task1.E2E_Purchase_item.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:Task1.Open_SWAGLABS_page">
+            <summary>
+            Description of Open_SWAGLABS_page.
+            </summary>
+        </member>
+        <member name="M:Task1.Open_SWAGLABS_page.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Task1.Open_SWAGLABS_page.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:Task1.Task1Repository">
+            <summary>
+            The class representing the Task1Repository element repository.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1Repository.Instance">
+            <summary>
+            Gets the singleton class instance representing the Task1Repository element repository.
+            </summary>
+        </member>
+        <member name="M:Task1.Task1Repository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1Repository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1Repository.SwagLabs">
+            <summary>
+            The SwagLabs folder.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1Repository.SwagLabsMozillaFirefox">
+            <summary>
+            The SwagLabsMozillaFirefox folder.
+            </summary>
+        </member>
+        <member name="T:Task1.Task1RepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:Task1.Task1RepositoryFolders.SwagLabsAppFolder">
+            <summary>
+            The SwagLabsAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Task1.Task1RepositoryFolders.SwagLabsAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new SwagLabs  folder.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.SwagLabsAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.SwagLabsAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.SwagLabsAppFolder.UserName">
+            <summary>
+            The UserName item.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.SwagLabsAppFolder.UserNameInfo">
+            <summary>
+            The UserName item info.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.SwagLabsAppFolder.Password">
+            <summary>
+            The Password item.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.SwagLabsAppFolder.PasswordInfo">
+            <summary>
+            The Password item info.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.SwagLabsAppFolder.LoginButton">
+            <summary>
+            The LoginButton item.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.SwagLabsAppFolder.LoginButtonInfo">
+            <summary>
+            The LoginButton item info.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.SwagLabsAppFolder.Products">
+            <summary>
+            The Products item.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.SwagLabsAppFolder.ProductsInfo">
+            <summary>
+            The Products item info.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.SwagLabsAppFolder.AddToCartSauceLabsBackpack">
+            <summary>
+            The AddToCartSauceLabsBackpack item.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.SwagLabsAppFolder.AddToCartSauceLabsBackpackInfo">
+            <summary>
+            The AddToCartSauceLabsBackpack item info.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.SwagLabsAppFolder.ShoppingCartLink">
+            <summary>
+            The ShoppingCartLink item.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.SwagLabsAppFolder.ShoppingCartLinkInfo">
+            <summary>
+            The ShoppingCartLink item info.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.SwagLabsAppFolder.Checkout">
+            <summary>
+            The Checkout item.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.SwagLabsAppFolder.CheckoutInfo">
+            <summary>
+            The Checkout item info.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.SwagLabsAppFolder.FirstName">
+            <summary>
+            The FirstName item.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.SwagLabsAppFolder.FirstNameInfo">
+            <summary>
+            The FirstName item info.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.SwagLabsAppFolder.LastName">
+            <summary>
+            The LastName item.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.SwagLabsAppFolder.LastNameInfo">
+            <summary>
+            The LastName item info.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.SwagLabsAppFolder.PostalCode">
+            <summary>
+            The PostalCode item.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.SwagLabsAppFolder.PostalCodeInfo">
+            <summary>
+            The PostalCode item info.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.SwagLabsAppFolder.Continue">
+            <summary>
+            The Continue item.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.SwagLabsAppFolder.ContinueInfo">
+            <summary>
+            The Continue item info.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.SwagLabsAppFolder.CheckoutOverview">
+            <summary>
+            The CheckoutOverview item.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.SwagLabsAppFolder.CheckoutOverviewInfo">
+            <summary>
+            The CheckoutOverview item info.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.SwagLabsAppFolder.YourCart">
+            <summary>
+            The YourCart item.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.SwagLabsAppFolder.YourCartInfo">
+            <summary>
+            The YourCart item info.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.SwagLabsAppFolder.CheckoutYourInformation">
+            <summary>
+            The CheckoutYourInformation item.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.SwagLabsAppFolder.CheckoutYourInformationInfo">
+            <summary>
+            The CheckoutYourInformation item info.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.SwagLabsAppFolder.Finish">
+            <summary>
+            The Finish item.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.SwagLabsAppFolder.FinishInfo">
+            <summary>
+            The Finish item info.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.SwagLabsAppFolder.CheckoutComplete">
+            <summary>
+            The CheckoutComplete item.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.SwagLabsAppFolder.CheckoutCompleteInfo">
+            <summary>
+            The CheckoutComplete item info.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.SwagLabsAppFolder.BackToProducts">
+            <summary>
+            The BackToProducts item.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.SwagLabsAppFolder.BackToProductsInfo">
+            <summary>
+            The BackToProducts item info.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.SwagLabsAppFolder.cart_badge">
+            <summary>
+            The cart_badge item.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.SwagLabsAppFolder.cart_badgeInfo">
+            <summary>
+            The cart_badge item info.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.SwagLabsAppFolder.CartItem">
+            <summary>
+            The CartItem folder.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.SwagLabsAppFolder.CheckoutSummaryContainer">
+            <summary>
+            The CheckoutSummaryContainer folder.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.SwagLabsAppFolder.CheckoutCompleteContainer">
+            <summary>
+            The CheckoutCompleteContainer folder.
+            </summary>
+        </member>
+        <member name="T:Task1.Task1RepositoryFolders.CartItemFolder">
+            <summary>
+            The CartItemFolder folder.
+            </summary>
+        </member>
+        <member name="M:Task1.Task1RepositoryFolders.CartItemFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new CartItem  folder.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.CartItemFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.CartItemFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.CartItemFolder.Item_name">
+            <summary>
+            The Item_name item.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.CartItemFolder.Item_nameInfo">
+            <summary>
+            The Item_name item info.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.CartItemFolder.item_price">
+            <summary>
+            The item_price item.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.CartItemFolder.item_priceInfo">
+            <summary>
+            The item_price item info.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.CartItemFolder.Cart_quantity">
+            <summary>
+            The Cart_quantity item.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.CartItemFolder.Cart_quantityInfo">
+            <summary>
+            The Cart_quantity item info.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.CartItemFolder.item_description">
+            <summary>
+            The item_description item.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.CartItemFolder.item_descriptionInfo">
+            <summary>
+            The item_description item info.
+            </summary>
+        </member>
+        <member name="T:Task1.Task1RepositoryFolders.CheckoutSummaryContainerFolder">
+            <summary>
+            The CheckoutSummaryContainerFolder folder.
+            </summary>
+        </member>
+        <member name="M:Task1.Task1RepositoryFolders.CheckoutSummaryContainerFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new CheckoutSummaryContainer  folder.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.CheckoutSummaryContainerFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.CheckoutSummaryContainerFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.CheckoutSummaryContainerFolder.summary_tax">
+            <summary>
+            The summary_tax item.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.CheckoutSummaryContainerFolder.summary_taxInfo">
+            <summary>
+            The summary_tax item info.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.CheckoutSummaryContainerFolder.summary_total">
+            <summary>
+            The summary_total item.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.CheckoutSummaryContainerFolder.summary_totalInfo">
+            <summary>
+            The summary_total item info.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.CheckoutSummaryContainerFolder.summary_subtotal">
+            <summary>
+            The summary_subtotal item.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.CheckoutSummaryContainerFolder.summary_subtotalInfo">
+            <summary>
+            The summary_subtotal item info.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.CheckoutSummaryContainerFolder.CartList">
+            <summary>
+            The CartList folder.
+            </summary>
+        </member>
+        <member name="T:Task1.Task1RepositoryFolders.CartListFolder">
+            <summary>
+            The CartListFolder folder.
+            </summary>
+        </member>
+        <member name="M:Task1.Task1RepositoryFolders.CartListFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new CartList  folder.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.CartListFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.CartListFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.CartListFolder.CartItem">
+            <summary>
+            The CartItem folder.
+            </summary>
+        </member>
+        <member name="T:Task1.Task1RepositoryFolders.CartItemFolder1">
+            <summary>
+            The CartItemFolder1 folder.
+            </summary>
+        </member>
+        <member name="M:Task1.Task1RepositoryFolders.CartItemFolder1.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new CartItem  folder.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.CartItemFolder1.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.CartItemFolder1.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.CartItemFolder1.item_name">
+            <summary>
+            The item_name item.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.CartItemFolder1.item_nameInfo">
+            <summary>
+            The item_name item info.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.CartItemFolder1.cart_quantity">
+            <summary>
+            The cart_quantity item.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.CartItemFolder1.cart_quantityInfo">
+            <summary>
+            The cart_quantity item info.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.CartItemFolder1.item__price">
+            <summary>
+            The item__price item.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.CartItemFolder1.item__priceInfo">
+            <summary>
+            The item__price item info.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.CartItemFolder1.item_description">
+            <summary>
+            The item_description item.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.CartItemFolder1.item_descriptionInfo">
+            <summary>
+            The item_description item info.
+            </summary>
+        </member>
+        <member name="T:Task1.Task1RepositoryFolders.CheckoutCompleteContainerFolder">
+            <summary>
+            The CheckoutCompleteContainerFolder folder.
+            </summary>
+        </member>
+        <member name="M:Task1.Task1RepositoryFolders.CheckoutCompleteContainerFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new CheckoutCompleteContainer  folder.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.CheckoutCompleteContainerFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.CheckoutCompleteContainerFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.CheckoutCompleteContainerFolder.Complete_text">
+            <summary>
+            The Complete_text item.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.CheckoutCompleteContainerFolder.Complete_textInfo">
+            <summary>
+            The Complete_text item info.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.CheckoutCompleteContainerFolder.complete_header">
+            <summary>
+            The complete_header item.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.CheckoutCompleteContainerFolder.complete_headerInfo">
+            <summary>
+            The complete_header item info.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.CheckoutCompleteContainerFolder.PonyExpress">
+            <summary>
+            The PonyExpress item.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.CheckoutCompleteContainerFolder.PonyExpressInfo">
+            <summary>
+            The PonyExpress item info.
+            </summary>
+        </member>
+        <member name="T:Task1.Task1RepositoryFolders.SwagLabsMozillaFirefoxAppFolder">
+            <summary>
+            The SwagLabsMozillaFirefoxAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Task1.Task1RepositoryFolders.SwagLabsMozillaFirefoxAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new SwagLabsMozillaFirefox  folder.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.SwagLabsMozillaFirefoxAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.SwagLabsMozillaFirefoxAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.SwagLabsMozillaFirefoxAppFolder.SwagLabs">
+            <summary>
+            The SwagLabs item.
+            </summary>
+        </member>
+        <member name="P:Task1.Task1RepositoryFolders.SwagLabsMozillaFirefoxAppFolder.SwagLabsInfo">
+            <summary>
+            The SwagLabs item info.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

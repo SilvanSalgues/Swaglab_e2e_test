@@ -1,0 +1,18 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="E2E_Purchase_item.cs" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="Task1.rxtst" />
+    <Element value="E2E_Purchase_item.cs" />
+    <Element value="Task1Repository.rxrep" />
+    <Element value="Open_SWAGLABS_page.cs" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections" />
+  </Properties>
+</Properties>
